@@ -35,7 +35,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-##Output
+## Output
 
 
 https://user-images.githubusercontent.com/63021565/180638651-29bd4e79-06c5-4e8e-8c8a-d46b936c9735.mp4
