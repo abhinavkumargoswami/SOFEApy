@@ -1,4 +1,9 @@
 
+# Project Title
+
+A brief description of what this project does and who it's for
+
+
 # SOFEApy
 
 This package is a python port of the original Single-shot Optical Flow Estimation Algorithm (SOFEA), A Non-iterative and Robust Optical Flow Estimation Algorithm for Dynamic Vision Sensors. The original implementation is in MATLAB. It is available at https://bitbucket.org/wengfei_nus/sofea/src/master/
@@ -28,17 +33,24 @@ Python 3 with the following packages installed:
 * mat73
 ## Installation
 
-Install SOFEApy using treminal
+Run the following command to install SOFEApy
 
 ```cmd
 pip install -r requirements.txt
 ```
 
+## Usage
+Run the following command.
+Select the name of the sequence using arg1.
+Visualise the local spatial neighbourhood about the EOI using arg2.
+```cmd
+python main.py [-arg1] [-arg2] 
+```
+The result is saved as a mat file.
+
 ## Output
 
-
 https://user-images.githubusercontent.com/63021565/180638651-29bd4e79-06c5-4e8e-8c8a-d46b936c9735.mp4
-
 
 ## License
 
