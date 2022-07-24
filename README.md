@@ -28,11 +28,10 @@ Python 3 with the following packages installed:
 * mat73
 ## Installation
 
-Install my-project with npm
+Install SOFEApy using treminal
 
 ```cmd
 pip install -r requirements.txt
-python main.py
 ```
 
 ## Output
