@@ -3,6 +3,7 @@ import numpy as np
 import math
 import plotly.graph_objects as go
 from scipy.io import savemat
+import sys
 
 
 # Visualise the local spatial neighbourhood about the EOI
@@ -51,11 +52,18 @@ def plot_neighbourhood(Neighbours, OptFlowEst, Eoi):
 
 
 if __name__ == '__main__':
-    visualise_spatial_neighbourhood = True
+
+
+    visualise_spatial_neighbourhood = False
     path = 'sequences/'
     sequence_names = ['stripes.mat', 'rotating_bar.mat', 'slider_hdr_far.mat']
-    data_dict = mat73.loadmat(path + sequence_names[1])
-
+    arg1 = 1
+    visualise_spatial_neighbourhood = False
+    if len(sys.argv) > 1:
+        arg1 = int(sys.argv[1])
+        if len(sys.argv) > 2:
+            visualise_spatial_neighbourhood = bool(sys.argv[2])
+    data_dict = mat73.loadmat(path + sequence_names[arg1])
     # load saved sequence
     TD = data_dict['TD']
 
