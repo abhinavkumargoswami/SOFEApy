@@ -35,6 +35,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+##Output
+
+
+https://user-images.githubusercontent.com/63021565/180638651-29bd4e79-06c5-4e8e-8c8a-d46b936c9735.mp4
+
+
 ## License
 
 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
