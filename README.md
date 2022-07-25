@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for
 
 # SOFEApy
 
-This package is a python port of the original Single-shot Optical Flow Estimation Algorithm (SOFEA), A Non-iterative and Robust Optical Flow Estimation Algorithm for Dynamic Vision Sensors. The original implementation is in MATLAB. It is available at https://bitbucket.org/wengfei_nus/sofea/src/master/
+This package is a python implementation of the original Single-shot Optical Flow Estimation Algorithm (SOFEA), A Non-iterative and Robust Optical Flow Estimation Algorithm for Dynamic Vision Sensors. The original implementation is in MATLAB. It is available at https://bitbucket.org/wengfei_nus/sofea/src/master/
 A brief introduction of the method is in the following video.
 [![SOFEA](https://img.youtube.com/vi/mPItrhMn0JQ/0.jpg)](https://www.youtube.com/watch?v=mPItrhMn0JQ)
 
